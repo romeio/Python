@@ -181,23 +181,115 @@ parrot_list.append("A Norwegian Coole")
 for state in parrot_list:
 	print("This parrot is "+state)
 
-even = [11,23,34,55,58]
-odd = [1,2,3,8,6]
 
-numbers = even+odd
 
-numbersOrder = sorted(numbers)
-print(numbersOrder)
+############################ PRACTICE LIST###################################
+# even = [11,23,34,55,58]
+# odd = [1,2,3,8,6]
+#
+# numbers = even+odd
+#
+# numbersOrder = sorted(numbers)
+# print(numbersOrder)
+#
+# if numbers==numbersOrder:
+# 	print("The list are not equel")
+# else:
+# 	print("The lists is equel")
+#
+# if numbersOrder ==sorted(numbers):
+# 	print("The list are not equel")
+# else:
+# 	print("The lists is equel")
+#
+#
+#
+#
+##################################################
+###############################################
+list_1 = [5,6]
+list_2 = list()
 
-if numbers==numbersOrder:
-	print("The list are not equel")
+print("list1:{}".format(list_1))
+print("list2:{}".format(list_2))
+
+if list_1 ==list_2:
+	print("The list are equal")
 else:
-	print("The lists is equel")
+	print("the lists not equal")
 
-if numbersOrder ==sorted(numbers):
-	print("The list are not equel")
-else:
-	print("The lists is equel")
+print(list("The day is Very Nice"))
+################################################
+#####################################
+# even = [2,3,4,5,6]
+# odd=[1,3,5,7,9]
+#
+# numbers = [even,odd]
+# print(numbers)
+#
+# for set_num in numbers:
+# 	print(set_num)
+#
+# for value in set_num:
+# 	print(value)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
