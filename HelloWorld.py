@@ -176,10 +176,10 @@ __author__ = 'dev'
 # ipAdress = input("Please enter an IP adress:")
 # print(ipAdress.cont("."))
 
-parrot_list = ["non pinin ","no more","a stiff","bereft of live"]
-parrot_list.append("A Norwegian Coole")
-for state in parrot_list:
-	print("This parrot is "+state)
+# parrot_list = ["non pinin ","no more","a stiff","bereft of live"]
+# parrot_list.append("A Norwegian Coole")
+# for state in parrot_list:
+# 	print("This parrot is "+state)
 
 
 
@@ -207,18 +207,18 @@ for state in parrot_list:
 #
 ##################################################
 ###############################################
-list_1 = [5,6]
-list_2 = list()
-
-print("list1:{}".format(list_1))
-print("list2:{}".format(list_2))
-
-if list_1 ==list_2:
-	print("The list are equal")
-else:
-	print("the lists not equal")
-
-print(list("The day is Very Nice"))
+# list_1 = [5,6]
+# list_2 = list()
+#
+# print("list1:{}".format(list_1))
+# print("list2:{}".format(list_2))
+#
+# if list_1 ==list_2:
+# 	print("The list are equal")
+# else:
+# 	print("the lists not equal")
+#
+# print(list("The day is Very Nice"))
 ################################################
 #####################################
 # even = [2,3,4,5,6]
@@ -232,6 +232,155 @@ print(list("The day is Very Nice"))
 #
 # for value in set_num:
 # 	print(value)
+
+
+# menu = []
+# menu.append(["egg","spam","bacon"])
+# menu.append(["egg","susage","bacon"])
+# menu.append(["egg","spam"])
+# menu.append(["egg","spam","bacon"])
+# menu.append(["egg","spam","bacon"])
+# menu.append(["egg","spam","spam","spam","bacon"])
+# print(menu)
+# for meal in menu:
+# 	if  "egg" in meal:
+# 	 meal.append("Meat")
+# 	print(meal)
+
+# string = "12384749302"
+# for char in string:
+# 	print(char)
+#
+# my_iterator = iter(string)
+# print(my_iterator)
+
+items = ["orange","pepsi","coca","potato","sqherofd"]
+
+# for tm in items:
+# 	print(tm)
+###################ITERATE EACH ITEM IN SEQUENCE################
+##############################################################
+# my_iterator = iter(items)
+# print(next(my_iterator))
+# print(next(my_iterator))
+
+# my_iter=iter(items)
+# for i in range(0,len(items)):
+# 	next_item = next(my_iter)
+# 	print(next_item)
+
+# my_list = list(range(10))
+# print(my_list)
+
+# even = list(range(0,10,2))
+# odd = list(range(1,100,3))
+#
+# print(even)
+# print(odd)
+
+######################################################3
+# my_string = "avjdifhueeuwiueiuiuerhwpihpirh"
+# print(my_string.index('e'))
+# print(my_string[9])
+#
+# seven = range(1,1000000,1)
+# x = int(input("Please even in Hear:"))
+# if x in seven:
+# 	print("{} This Number Exists in seven".format(x))
+# ########################################################
+# decimals = range(0,100)
+# myrane = decimals[2:40:3]
+# for i in myrane:
+# 	print(i)
+
+# r = range(0,100)
+# print(r)
+# for i in r[::2]:
+# 	print(i)
+
+############TUBLE################3333
+# t = "a","b","c"
+# s = (("a","b","c"))
+# y=["2","4","4","99"]
+# print(y)
+# print(t)
+# print(s)
+
+# Welcome = "Welcome to My Place","hello World"
+
+#print(Welcome)
+
+# ram = Welcome[0],"hello Welome Is Hear",Welcome[2]
+# print(ram)
+
+# metalica2 = ["Rid The ligthing","Metalica",19393]
+# print(metalica2)
+# metalica2.append("Rock")
+# imelda = "More Maythem","Imelda May",2011,((1,"pulling The Rug"),(2,"Psycho"),(3,"Kentish Town"),(4,"Pljdlkjf fd"))
+#
+# print(imelda)
+# title,artis,year ,tracks= imelda
+# print(title)
+# print(artis)
+# print(year)
+# print(tracks)
+#
+# for song in year:
+# 	print("\t",song)
+fruit = {"orange":"asweet,orange,citrus fruit",
+         "apple":"good for making cider",
+          "lemon":"asour,yellow citrus fruit",
+         "grape":"a small ,sweet fruit growing in bunches"
+         }
+
+print(fruit["apple"])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
