@@ -331,17 +331,52 @@ items = ["orange","pepsi","coca","potato","sqherofd"]
 #############STUDYING DICTIONIRES################
 
 
-# fruit = {"orange":"asweet,orange,citrus fruit",
-#          "apple":"good for making cider",
-#           "lemon":"asour,yellow citrus fruit",
-#          "grape":"a small ,sweet fruit growing in bunches"
-#          }
+fruit = {"orange":"asweet,orange,citrus fruit",
+         "apple":"good for making cider",
+          "lemon":"asour,yellow citrus fruit",
+         "grape":"a small ,sweet fruit growing in bunches"
+         }
+
+#print(fruit["apple"])
+#ADD BEAR#
+# fruit["pear"]=" an odd shaped apple"
+# fruit["bnana"] = "full of acrps and suger"
+print(fruit)
+# while True:
+#     dict_key = input("Please enter afruit:")
+#     if dict_key == "quite":
+#      print("You are Quiting")
+#     break
+    # if dict_key in fruit:
+    #  description = fruit.get(dict_key)
+    # print(description)
+
+# for i in range(10):
+#  for snack in fruit:
+# 	 print(snack+"is"+fruit[snack])
 #
-# print(fruit["apple"])
+#  print('-'*40)
+# ordered_key = list(fruit.keys())
+# print(ordered_key.sort())
+# for f in ordered_key:
+# 	print(f+"-"+fruit[f])
+#
+#####   GET THE KEY OF FRUITS
+for f in sorted(fruit.keys()):
+	print(f+"-"+fruit[f])
+#########    GET THE VALUE OF FRUITS ########
+
+for val in fruit.values():
+ print('/' * 100)
+print(val)
 
 
-bike = {"make":"Honda","model":"250 dream","colour":"read","engin":250}
-print(bike["engin"])
+
+
+
+#  ##ADD BIKE IN DICT
+# bike = {"make":"Honda","model":"250 dream","colour":"read","engin":250}
+# print(bike["engin"])
 
 
 
