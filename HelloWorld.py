@@ -326,17 +326,22 @@ items = ["orange","pepsi","coca","potato","sqherofd"]
 # print(tracks)
 #
 # for song in year:
-# 	print("\t",song)
-fruit = {"orange":"asweet,orange,citrus fruit",
-         "apple":"good for making cider",
-          "lemon":"asour,yellow citrus fruit",
-         "grape":"a small ,sweet fruit growing in bunches"
-         }
-
-print(fruit["apple"])
+#### 	print("\t",song)
+################################################
+#############STUDYING DICTIONIRES################
 
 
+# fruit = {"orange":"asweet,orange,citrus fruit",
+#          "apple":"good for making cider",
+#           "lemon":"asour,yellow citrus fruit",
+#          "grape":"a small ,sweet fruit growing in bunches"
+#          }
+#
+# print(fruit["apple"])
 
+
+bike = {"make":"Honda","model":"250 dream","colour":"read","engin":250}
+print(bike["engin"])
 
 
 
